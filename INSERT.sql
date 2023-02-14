@@ -35,7 +35,7 @@ VALUES ('America', '2018'),
        ('Rammstein', '2019'),
        ('God Save the Rave', '2021');
       
-INSERT INTO tracks (title, duration , album_id)
+INSERT INTO tracks (tracks_title, duration , album_id)
 VALUES ('Walk on Water', '00:03:05', 1), ('Dangerous Night', '00:03:19', 1), ('Rescue Me', '00:03:37', 1),
        ('One Track Mind', '00:04:20', 1), ('Monolith', '00:01:38', 1), ('Love Is Madness', '00:03:54', 1),
        ('Great Wide Open', '00:04:49', 1), ('Hail to the Victor', '00:03:22', 1), ('Dawn Will Rise', '00:03:57', 1),
@@ -123,7 +123,7 @@ VALUES (1, 1), (1, 2), (1, 3),
        (5, 13), (5, 14), (5, 15),
        (6, 16), (7, 17), (8, 18);
 
-INSERT INTO executorsgenre (executors_id, gernre_id)
+INSERT INTO executorsgenre (executors_id, genre_id)
 VALUES (1, 1), (2, 2), (3,3),
        (4, 2), (5, 2), (5, 1),
        (6, 2), (7, 5), (8, 4);
