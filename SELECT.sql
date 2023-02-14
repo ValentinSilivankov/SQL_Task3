@@ -13,7 +13,7 @@ SELECT tracks_title, duration
 SELECT tracks_title, duration 
   FROM tracks
  WHERE duration >= '00:03:30'
-ORDER BY duration DESC;
+ ORDER BY duration DESC;
  
 --названия сборников, вышедших в период с 2018 по 2020 год включительно
 SELECT compiliation_title 
@@ -28,7 +28,7 @@ SELECT nickname
 --Название треков, которые содержат слово "мой"/"my".
 SELECT tracks_title 
   FROM tracks
- WHERE tracks_title LIKE '%Мой%' 
- 	OR tracks_title LIKE '%мой%'
- 	OR tracks_title LIKE '%My%'
- 	OR tracks_title LIKE '%my%';
+ WHERE tracks_title LIKE '%Мой%'
+    OR tracks_title LIKE '%мой%'
+    OR tracks_title LIKE '%My%'
+    OR tracks_title LIKE '%my%';
