@@ -21,7 +21,7 @@ SELECT nickname
  
 SELECT tracks_title 
   FROM tracks
- WHERE tracks_title LIKE '%Мой%' 
- 	OR tracks_title LIKE '%мой%'
- 	OR tracks_title LIKE '%My%'
- 	OR tracks_title LIKE '%my%';
+ WHERE tracks_title LIKE '%Мой%'
+    OR tracks_title LIKE '%мой%'
+    OR tracks_title LIKE '%My%'
+    OR tracks_title LIKE '%my%';
