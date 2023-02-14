@@ -6,8 +6,8 @@ CREATE TABLE IF NOT EXISTS Compiliations_of_tracks (
 
 CREATE TABLE IF NOT EXISTS Albums_of_executor (
     id SERIAL       PRIMARY KEY,
-	Title           TEXT    NOT NULL,
-	Year_of_release INTEGER NOT NULL
+    Title           TEXT    NOT NULL,
+    Year_of_release INTEGER NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS Tracks (
